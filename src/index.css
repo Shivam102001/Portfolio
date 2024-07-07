@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+
+    body{
+         @apply font-[Raleway];
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+.banner{
+    background: url(../src/assets/images.jpg) no-repeat right center;
+    background-size: cover;
+}
+.about{
+    background: url(../src/assets/images1.jpg) no-repeat right center;
+    background-size: cover;
+}
+.skill{
+    background: url(../src/assets/skill.jpg) no-repeat right center;
+    background-size: cover;
+}
+.work{
+    background: url(../src/assets/work.jpg) no-repeat right center;
+    background-size: cover;
+}
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;   
+}
+.content-div:hover{
+     background-image: linear-gradient(to right,rgba(149, 152, 155, 0.7),hsla(192, 2%, 52%, 0.7)) !important;
+}
+.contact{
+    background: url(../src/assets/Contact.jpg) no-repeat right center;
+    background-size: cover;
+}
